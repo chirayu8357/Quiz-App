@@ -1,0 +1,113 @@
+/* quizStyle.css */
+
+/* Page */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#e99b63,  #f28d8d) ;
+  color: black;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.screen h1{
+  font-weight: 700;
+}
+
+/* Form container */
+form {
+  background: beige;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  text-align: left;   /* ✅ ensures everything aligns left */
+}
+
+/* Question text */
+form p {
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* Question block */
+.block {
+  margin-bottom: 15px;
+  text-align: left;   /* ✅ radios + labels align left */
+}
+
+/* Radio + label inline */
+input[type="radio"] {
+  margin-right: 8px;
+  accent-color: #ffb84d;
+}
+
+label {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #e27e36;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    width: 100px;
+    color: white;
+    background-color: #9c4e16;
+}
+
+button:disabled {
+  background: #777;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Score */
+.screen {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.screen h2 {
+  font-size: 22px;
+  color: #9c4e16;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+  form p {
+    font-size: 16px;
+  }
+  label {
+    font-size: 15px;
+  }
+  button {
+    font-size: 15px;
+  }
+}

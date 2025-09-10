@@ -1,4 +1,4 @@
-# Quiz-App
+# Quiz-Page
 
 Visit page: https://chirayu8357.github.io/Quiz-Page/
 

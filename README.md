@@ -1,6 +1,6 @@
 # Quiz-App
 
-Visit page: https://chirayu8357.github.io/Quiz-App/
+Visit page: https://chirayu8357.github.io/Quiz-Page/
 
 Quiz App - Project Description
 
